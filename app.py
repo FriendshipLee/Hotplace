@@ -227,4 +227,4 @@ def course_recommend():
     #print(data)
     return render_template("course_recommend.html", items=vo, route=data)
 
-app.run(debug=True, host="0.0.0.0")
+#app.run(debug=True, host="0.0.0.0")
