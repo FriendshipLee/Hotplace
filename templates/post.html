@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>post</title>
     <link rel="stylesheet" href="{{url_for('static', filename='./css/post.css')}}">
+    <script type="text/javascript" src="//dapi.kakao.com/v2/maps/sdk.js?appkey=5dc1345be1648399a9d829d32eecfe8f"></script>
 </head>
 <body>
     {% include "header.html" %}
@@ -50,7 +51,6 @@
             </div>
     </div>
 </body>
-<script type="text/javascript" src="//dapi.kakao.com/v2/maps/sdk.js?appkey=5dc1345be1648399a9d829d32eecfe8f"></script>
 <script src="{{url_for('static', filename='./js/jquery-3.7.1.js')}}"></script>
 <script src="{{url_for('static', filename='./js/post.js')}}"></script>
 <script>
